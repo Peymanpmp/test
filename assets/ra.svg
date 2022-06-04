@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.796" height="66.303" viewBox="0 0 67.796 66.303">
+  <defs>
+    <filter id="Rectangle_1165" x="0" y="0" width="67.796" height="66.303" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6377" data-name="Group 6377" transform="translate(1056.796 763.303) rotate(180)">
+    <g transform="matrix(-1, 0, 0, -1, 1056.8, 763.3)" filter="url(#Rectangle_1165)">
+      <rect id="Rectangle_1165-2" data-name="Rectangle 1165" width="49.796" height="48.303" rx="24" transform="translate(58.8 54.3) rotate(180)" fill="#fff"/>
+    </g>
+    <g id="Group_5322" data-name="Group 5322" transform="translate(1027.187 724.933) rotate(90)">
+      <path id="Path_101151" data-name="Path 101151" d="M7.607,10.148a1.959,1.959,0,0,0,2.762,0l7-7a1.885,1.885,0,0,0,.11-2.651A1.885,1.885,0,0,0,14.83.6L10.369,5.065a1.959,1.959,0,0,1-2.762,0L3.145.6A1.885,1.885,0,0,0,.494.493,1.885,1.885,0,0,0,.6,3.145Z" transform="translate(0 0)" fill="#00951e"/>
+    </g>
+  </g>
+</svg>

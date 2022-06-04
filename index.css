@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("./fonts/Shabnam.woff");
+}
+@font-face {
+  font-family: "Yekan";
+  src: url("./fonts/Yekan.ttf");
+}
+* {
+  font-family: "Shabnam", Yekan;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+.root {
+  padding: 0px 0px;
+}
+
+/* Navbar */
+
+.nav-root {
+  display: flex !important;
+  padding: 0px 60px;
+}
+
+.nav-label {
+  position: absolute;
+  right: -30px;
+  top: -20px;
+}
+
+.nav-label > img {
+  width: 256px;
+  height: 174px;
+}
+
+.topnav-center {
+  margin-top: 50px;
+  padding-right: 130px;
+}
+
+.topnav-center a {
+  color: #000;
+  text-align: center;
+  margin: 0px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.specefic {
+  border: 1px solid crimson;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.topnav-left {
+  margin-top: 42px;
+  position: absolute;
+  left: 35px;
+}
+
+.topnav-left a {
+  color: #000;
+  text-align: center;
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login > img {
+  padding-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+/* Banner */
+
+.banner-root {
+  padding: 30px 60px 0px 60px;
+}
+
+.banner-img > img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-txt {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  text-align: center;
+}
+
+.banner-txt > p {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.banner-txt > span {
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+/* Cards */
+
+.card-root {
+  padding: 10px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > img {
+  width: 300px;
+  height: 200px;
+}
+
+/* .card-flex {
+  display: flex;
+} */
+
+.flex-right > h4 {
+  color: white;
+  font-weight: 400;
+  float: left;
+  position: absolute;
+  padding-right: 240px;
+  bottom: -110px;
+}
+
+.flex-right > img {
+  float: right;
+  position: relative;
+  padding-right: 10px;
+  top: -200px;
+}
+
+.stars {
+  padding-top: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+.jungle {
+  position: relative;
+  left: 40px;
+}
+
+.flex-left {
+  position: relative;
+  bottom: 55px;
+  float: left;
+}
+
+.flex-left > p {
+  border-right: 1px solid crimson;
+  padding: 0px 6px;
+}
+
+.flex-left > p > span {
+  color: gray;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* More cards Button */
+
+.More-cards-Button-root {
+  padding: 0px 60px 20px 60px;
+}
+
+.all-posts {
+  float: left;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+/* More Camps Button */
+
+.more-camps-root {
+  display: flex;
+  padding: 0px 60px;
+}
+
+.camps-btn {
+  padding: 30px 10px;
+}
+
+.camps-btn > span {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.camps-btn > span:first-child {
+  background-color: #00951e;
+  border: 1px solid #00951e;
+  color: white;
+}
+
+.camps-btn > span:last-child {
+  border: 1px solid #cf92b9;
+  color: black;
+}
+
+/* filter Button */
+
+.filter-button-root {
+  padding: 10px 60px;
+  display: flex;
+  float: left;
+}
+
+.filter-button-root > p {
+  padding-right: 10px;
+}
+
+/* Table */
+
+.table-root {
+  padding: 0px 60px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.header {
+  background-color: #006a12;
+}
+
+#customers td,
+#customers th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+}
+
+.green {
+  color: #00951e;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.grey {
+  color: #585858;
+}
+
+/* Video Gallery */
+
+.video-gallery-root {
+  background-color: #e7e9e7;
+  padding: 50px;
+}
+
+.vg-ra {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 27px;
+  top: 172px;
+}
+
+.vg-main {
+  display: flex;
+}
+
+.vg-img {
+  position: relative;
+  left: 300px;
+  bottom: 260px;
+}
+
+.vg-text {
+  padding-top: -90px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* questions */
+
+.questions-root {
+  padding: 40px 50px;
+}
+
+.right {
+  grid-area: right;
+}
+
+.left {
+  grid-area: left;
+  border-right: 1px solid rgb(231, 228, 228);
+  padding-right: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "right right right right left left";
+  gap: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  /* padding: 20px 0; */
+  font-size: 17px;
+}
+
+.questions-flex {
+  display: flex;
+  text-align: right;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(231, 233, 231);
+  margin-left: 90px;
+}
+
+.questions-flex > img {
+  position: relative;
+  right: 330px;
+}
+
+.question-maybe {
+  border: 1px solid rgb(198, 198, 199);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bold {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Footer */
+
+.footer-root {
+  padding-top: 0px;
+  background: #ffffff url("./assets/fbg.svg") no-repeat center top;
+  width: 100%;
+  height: 450px;
+}
+
+
+
+.f-flex {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 130px;
+}
+
+.f-flex-right > p {
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.f-flex-right > img {
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.f-flex-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 0px 70px;
+
+}
+
+.f-flex-center > p {
+  color: white;
+  margin: 30px 0px;
+}
+
+.center-input {
+  width: 92%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.center-flex {
+  display: flex;
+  margin-top: 10px;
+}
+
+.center-flex > input {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200%;
+  border: none;
+}
+
+.center-flex > button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  justify-content: left;
+}
+
+.f-flex-left > p {
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+
+/* footer-bottom */
+.footer-bottom {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #204839;
+  position: relative;
+}
+
+.footer-bottom > p {
+  color: white;
+}
+
+/* Global style */
+.num {
+  font-family: Yekan;
+  direction: ltr;
+}
+
+.disable {
+  display: none;
+}
+
+.able:hover + .disable {
+  display: flex;
+  color: red;
+}
